@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="255" viewBox="0 0 1200 255">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#02070d"/><stop offset=".5" stop-color="#071522"/><stop offset="1" stop-color="#02070d"/></linearGradient>
+  <linearGradient id="wave" x1="0" x2="1"><stop stop-color="#00e5ff"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
+  <filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="thanks"><rect x="330" y="66" width="0" height="46"><animate attributeName="width" values="0;550;550;0" keyTimes="0;.38;.88;1" dur="8s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.w1{animation:w1 9s linear infinite}.w2{animation:w2 13s linear infinite reverse}.p{animation:p 2s ease-in-out infinite}.down{animation:d 1.5s ease-in-out infinite}@keyframes w1{to{transform:translateX(120px)}}@keyframes w2{to{transform:translateX(-160px)}}@keyframes p{50%{opacity:.28}}@keyframes d{50%{transform:translateY(8px)}}
+</style>
+<rect width="1200" height="255" rx="28" fill="url(#bg)" stroke="#00e5ff" stroke-opacity=".28"/>
+<text x="600" y="46" text-anchor="middle" fill="#8198a8" font-size="13">SESSION STATUS // COMPLETE</text>
+<text x="330" y="102" clip-path="url(#thanks)" fill="#eafdff" font-size="34" font-weight="800" filter="url(#gl)">THANKS FOR VISITING</text>
+<rect y="72" width="7" height="39" fill="#00e5ff">
+  <animate attributeName="x" values="330;866;866;330" keyTimes="0;.38;.88;1" dur="8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;1;0;1" dur="1s" repeatCount="indefinite"/>
+</rect>
+<text x="600" y="137" text-anchor="middle" fill="#62efff" font-size="15">THE NEXT BUILD IS ALREADY LOADING...</text>
+<circle cx="600" cy="158" r="5" fill="#35f2b1" class="p"/>
+<text x="600" y="187" text-anchor="middle" fill="#a9bac6" font-size="13">GitHub repositories, contribution graph & activity continue below</text>
+<g class="down"><path d="M590 202l10 10 10-10M590 216l10 10 10-10" stroke="#00e5ff" stroke-width="3" fill="none"/></g>
+<g class="w1" opacity=".32"><path d="M-140 239 Q0 195 140 239 T420 239 T700 239 T980 239 T1260 239" fill="none" stroke="#00e5ff" stroke-width="3"/></g>
+<g class="w2" opacity=".22"><path d="M-160 247 Q0 214 160 247 T480 247 T800 247 T1120 247 T1440 247" fill="none" stroke="#8b5cf6" stroke-width="3"/></g>
+</svg>
