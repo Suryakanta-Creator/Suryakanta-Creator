@@ -259,6 +259,12 @@ A creative space-themed project focused on immersive visuals, exploration, and i
 <br/>
 
 <div align="center">
-<img src="./assets/profile-footer.svg" width="100%" alt="Animated footer leading into GitHub repositories and contribution activity"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=2600&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=THANKS+FOR+VISITING+%F0%9F%91%8B;KEEP+BUILDING.+KEEP+LEARNING.+KEEP+GROWING.;REPOSITORIES+%2B+CONTRIBUTIONS+CONTINUE+BELOW+%E2%86%93" alt="Animated footer message"/>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,45:07111A,100:8B5CF6&height=150&section=footer&animation=twinkling" width="100%" alt="Animated cyber wave footer"/>
+
 </div>
 
