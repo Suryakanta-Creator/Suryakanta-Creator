@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="34" viewBox="0 0 1200 34">
+<style>.a{animation:p 2.5s ease-in-out infinite}.b{animation:q 3.5s ease-in-out infinite}@keyframes p{50%{opacity:.22}}@keyframes q{50%{transform:translateX(70px)}}</style>
+<line x1="0" y1="17" x2="1200" y2="17" stroke="#12354a"/>
+<line x1="0" y1="17" x2="1200" y2="17" stroke="#00e5ff" stroke-width="2" stroke-dasharray="160 1040" class="b"/>
+<circle cx="600" cy="17" r="6" fill="#8b5cf6" class="a"/><circle cx="600" cy="17" r="2" fill="#fff"/>
+</svg>
