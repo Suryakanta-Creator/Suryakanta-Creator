@@ -1,16 +1,17 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Suryakanta Bala futuristic developer hero"/>
-
-<br/>
-
-<a href="https://github.com/Suryakanta-Creator"><img src="https://img.shields.io/badge/GITHUB-07111A?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/suryakanta-bala-b820923aa/"><img src="https://img.shields.io/badge/LINKEDIN-07111A?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn"/></a>
-<a href="mailto:myworldsurya912@gmail.com"><img src="https://img.shields.io/badge/EMAIL-07111A?style=for-the-badge&logo=gmail&logoColor=00E5FF" alt="Email"/></a>
+<img src="./assets/typing-hero.svg" width="63%" alt="Suryakanta Bala name typing in a futuristic terminal"/>
+<img src="./assets/floating-portrait.svg" width="32%" alt="Floating portrait of Suryakanta Bala"/>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2200&pause=650&color=00E5FF&center=true&vCenter=true&width=900&lines=%3E_+FULL+STACK+DEVELOPER+%C3%97+AI+EXPLORER;%3E_+BUILDING+KRUSHI+SEVA;%3E_+TURNING+IDEAS+INTO+SOFTWARE;%3E_+LEARN+%E2%80%A2+BUILD+%E2%80%A2+GROW+%E2%80%A2+REPEAT" alt="Animated status typing"/>
+<a href="https://github.com/Suryakanta-Creator"><img src="https://img.shields.io/badge/GITHUB-Suryakanta--Creator-07111A?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/suryakanta-bala-b820923aa/"><img src="https://img.shields.io/badge/LINKEDIN-Suryakanta%20Bala-07111A?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn"/></a>
+<a href="mailto:myworldsurya912@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONNECT-07111A?style=for-the-badge&logo=gmail&logoColor=00E5FF" alt="Email"/></a>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2200&pause=650&color=00E5FF&center=true&vCenter=true&width=900&lines=FULL+STACK+DEVELOPER+%C3%97+AI+EXPLORER;BUILDING+KRUSHI+SEVA;TURNING+IDEAS+INTO+SOFTWARE;LEARN+%E2%80%A2+BUILD+%E2%80%A2+GROW+%E2%80%A2+REPEAT" alt="Animated developer roles"/>
 
 </div>
 
@@ -63,16 +64,30 @@ My current direction is full-stack development with AI-powered features, strong 
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
 
-## `// TECH_ORBIT`
+## `// TECH_STACK`
 
 <div align="center">
 <img src="./assets/tech-orbit.svg" width="100%" alt="Animated orbiting technology stack"/>
 </div>
 
+### `LANGUAGES`
 <div align="center">
+<img src="https://skillicons.dev/icons?i=java,js,ts,python&perline=8" alt="Java JavaScript TypeScript Python"/>
+</div>
 
-<img src="https://skillicons.dev/icons?i=java,spring,js,ts,react,nextjs,html,css,tailwind,python,mysql,postgres,supabase,git,github,vscode&perline=8" alt="Technology stack"/>
+### `FRONTEND`
+<div align="center">
+<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&perline=8" alt="React Next.js HTML CSS Tailwind CSS"/>
+</div>
 
+### `BACKEND_&_DATA`
+<div align="center">
+<img src="https://skillicons.dev/icons?i=spring,mysql,postgres,supabase&perline=8" alt="Spring Boot MySQL PostgreSQL Supabase"/>
+</div>
+
+### `TOOLS_&_WORKFLOW`
+<div align="center">
+<img src="https://skillicons.dev/icons?i=git,github,vscode&perline=8" alt="Git GitHub Visual Studio Code"/>
 </div>
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
@@ -178,6 +193,16 @@ A creative space-themed project focused on immersive visuals, exploration, and i
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
 
+## `// CURRENTLY_EXPLORING`
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2300&pause=650&color=00E5FF&center=true&vCenter=true&width=900&lines=%E2%98%81%EF%B8%8F+Cloud+Architecture;%F0%9F%A4%96+AI+Integration;%F0%9F%A7%A0+System+Design;%F0%9F%9A%80+Deployment+%26+DevOps;%F0%9F%8C%90+Building+Better+Full-Stack+Products" alt="Animated currently exploring topics"/>
+
+</div>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+
 ## `// CONTRIBUTION_WORLD_3D`
 
 <div align="center">
@@ -230,3 +255,10 @@ A creative space-themed project focused on immersive visuals, exploration, and i
 **Build useful things. Keep learning. Keep shipping.**
 
 </div>
+
+<br/>
+
+<div align="center">
+<img src="./assets/profile-footer.svg" width="100%" alt="Animated footer leading into GitHub repositories and contribution activity"/>
+</div>
+
