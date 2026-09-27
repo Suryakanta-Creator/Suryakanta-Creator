@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
+<style>.a{animation:a 8s linear infinite}.b{animation:b 11s linear infinite reverse}.p{animation:p 2.4s ease-in-out infinite}@keyframes a{to{transform:translateX(120px)}}@keyframes b{to{transform:translateX(-140px)}}@keyframes p{50%{opacity:.25}}</style>
+<rect width="1200" height="120" rx="22" fill="#02070D"/>
+<g class="a" opacity=".35"><path d="M-120 88 Q0 28 120 88 T360 88 T600 88 T840 88 T1080 88 T1320 88" fill="none" stroke="#00E5FF" stroke-width="3"/></g>
+<g class="b" opacity=".24"><path d="M-140 98 Q0 48 140 98 T420 98 T700 98 T980 98 T1260 98" fill="none" stroke="#8B5CF6" stroke-width="3"/></g>
+<text x="600" y="44" text-anchor="middle" fill="#EAFBFF" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18">SURYAKANTA // CREATOR</text>
+<text x="600" y="70" text-anchor="middle" fill="#62EFFF" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" class="p">BUILD • LEARN • GROW • REPEAT</text>
+</svg>
