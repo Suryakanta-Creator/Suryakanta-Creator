@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#02070d"/><stop offset=".5" stop-color="#071522"/><stop offset="1" stop-color="#02070d"/></linearGradient>
+  <filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.grid{stroke:#16455e;stroke-width:3}.x{stroke:#00e5ff;stroke-width:10;stroke-linecap:round;filter:url(#g)}.o{stroke:#8b5cf6;stroke-width:10;fill:none;filter:url(#g)}
+</style>
+<rect width="1200" height="330" rx="24" fill="url(#bg)" stroke="#00e5ff" stroke-opacity=".28"/>
+<text x="38" y="48" fill="#62efff" font-size="16">AUTO_GAME // TIC_TAC_TOE</text>
+<text x="38" y="78" fill="#8198a8" font-size="13">AI_X vs AI_O • looping simulation</text>
+<text x="38" y="122" fill="#d8e7f0" font-size="15">STATUS:</text>
+<text x="113" y="122" fill="#00e5ff" font-size="15">
+  thinking...
+  <animate attributeName="opacity" values="1;1;.35;1" dur="1.1s" repeatCount="indefinite"/>
+</text>
+<text x="38" y="165" fill="#8198a8" font-size="13">X = CYAN</text>
+<text x="38" y="190" fill="#8198a8" font-size="13">O = VIOLET</text>
+<text x="38" y="235" fill="#d8e7f0" font-size="14">winner:</text>
+<text x="105" y="235" fill="#00e5ff" font-size="14" opacity="0">AI_X
+  <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" keyTimes="0;.1;.2;.3;.4;.5;.6;.7;.9;1" dur="9s" repeatCount="indefinite"/>
+</text>
+<g transform="translate(470 28)">
+  <rect x="0" y="0" width="280" height="280" rx="18" fill="#04101a" stroke="#12384c"/>
+  <line x1="93.3" y1="15" x2="93.3" y2="265" class="grid"/><line x1="186.6" y1="15" x2="186.6" y2="265" class="grid"/>
+  <line x1="15" y1="93.3" x2="265" y2="93.3" class="grid"/><line x1="15" y1="186.6" x2="265" y2="186.6" class="grid"/>
+
+  <g opacity="0">
+    <line x1="25" y1="25" x2="68" y2="68" class="x"/><line x1="68" y1="25" x2="25" y2="68" class="x"/>
+    <animate attributeName="opacity" values="0;1;1;1;1;1;1;1;1;0" keyTimes="0;.08;.2;.3;.4;.5;.6;.7;.92;1" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <circle cx="140" cy="47" r="25" class="o"/>
+    <animate attributeName="opacity" values="0;0;1;1;1;1;1;1;1;0" keyTimes="0;.12;.2;.3;.4;.5;.6;.7;.92;1" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <line x1="212" y1="25" x2="255" y2="68" class="x"/><line x1="255" y1="25" x2="212" y2="68" class="x"/>
+    <animate attributeName="opacity" values="0;0;0;1;1;1;1;1;1;0" keyTimes="0;.1;.22;.3;.4;.5;.6;.7;.92;1" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <circle cx="47" cy="140" r="25" class="o"/>
+    <animate attributeName="opacity" values="0;0;0;0;1;1;1;1;1;0" keyTimes="0;.1;.2;.32;.4;.5;.6;.7;.92;1" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <line x1="118" y1="118" x2="162" y2="162" class="x"/><line x1="162" y1="118" x2="118" y2="162" class="x"/>
+    <animate attributeName="opacity" values="0;0;0;0;0;1;1;1;1;0" keyTimes="0;.1;.2;.3;.42;.5;.6;.7;.92;1" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <circle cx="233" cy="140" r="25" class="o"/>
+    <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;1;0" keyTimes="0;.1;.2;.3;.4;.52;.6;.7;.92;1" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <g opacity="0">
+    <line x1="118" y1="212" x2="162" y2="255" class="x"/><line x1="162" y1="212" x2="118" y2="255" class="x"/>
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" keyTimes="0;.1;.2;.3;.4;.5;.62;.7;.92;1" dur="9s" repeatCount="indefinite"/>
+  </g>
+  <line x1="140" y1="18" x2="140" y2="262" stroke="#00e5ff" stroke-width="8" stroke-linecap="round" opacity="0" filter="url(#g)">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;1;1;0" keyTimes="0;.1;.2;.3;.4;.5;.65;.72;.92;1" dur="9s" repeatCount="indefinite"/>
+  </line>
+</g>
+<g transform="translate(835 75)">
+  <rect width="300" height="175" rx="18" fill="#04101a" stroke="#12384c"/>
+  <text x="24" y="38" fill="#62efff" font-size="14">MATCH_LOG</text>
+  <text x="24" y="70" fill="#a9bac6" font-size="13">01  X → top-left</text>
+  <text x="24" y="94" fill="#a9bac6" font-size="13">02  O → top-middle</text>
+  <text x="24" y="118" fill="#a9bac6" font-size="13">...</text>
+  <text x="24" y="145" fill="#00e5ff" font-size="13">07  X → WIN</text>
+</g>
+</svg>
