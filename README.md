@@ -128,6 +128,32 @@ A creative space-themed project focused on immersive visuals, exploration, and i
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
 
+## `// ARCADE_MODE`
+
+<div align="center">
+
+### 🐍 Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+  <img alt="Snake animation eating my real GitHub contributions" src="./assets/github-snake-dark.svg" width="100%" />
+</picture>
+
+<sub>The snake is generated automatically from my real GitHub contribution graph.</sub>
+
+<br/><br/>
+
+### ❌⭕ AI Tic-Tac-Toe
+
+<img src="./assets/tic-tac-toe.svg" width="100%" alt="Automatically playing cyber tic-tac-toe game"/>
+
+<sub>Two tiny bots play a looping match while you scroll through the profile.</sub>
+
+</div>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+
 ## `// LIVE_TELEMETRY`
 
 <div align="center">
