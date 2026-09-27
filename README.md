@@ -77,6 +77,14 @@ My current direction is full-stack development with AI-powered features, strong 
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
 
+## `// PROJECT_RADAR`
+
+<div align="center">
+<img src="./assets/project-radar.svg" width="100%" alt="Animated radar showing current projects"/>
+</div>
+
+<img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
+
 ## `// FEATURED_BUILDS`
 
 <table>
@@ -140,15 +148,19 @@ A creative space-themed project focused on immersive visuals, exploration, and i
   <img alt="Snake animation eating my real GitHub contributions" src="./assets/github-snake-dark.svg" width="100%" />
 </picture>
 
-<sub>The snake is generated automatically from my real GitHub contribution graph.</sub>
+<sub>Generated automatically from my real contribution graph.</sub>
 
 <br/><br/>
 
-### ❌⭕ AI Tic-Tac-Toe
+### 👾 Pac-Man Contribution Run
 
-<img src="./assets/tic-tac-toe.svg" width="100%" alt="Automatically playing cyber tic-tac-toe game"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Suryakanta-Creator/Suryakanta-Creator/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Suryakanta-Creator/Suryakanta-Creator/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man moving through my GitHub contribution graph" src="https://raw.githubusercontent.com/Suryakanta-Creator/Suryakanta-Creator/output/pacman-contribution-graph-dark.svg" width="100%" />
+</picture>
 
-<sub>Two tiny bots play a looping match while you scroll through the profile.</sub>
+<sub>Pac-Man is regenerated automatically from GitHub activity.</sub>
 
 </div>
 
@@ -158,16 +170,9 @@ A creative space-themed project focused on immersive visuals, exploration, and i
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Suryakanta-Creator&show_icons=true&hide_border=true&bg_color=07111A&title_color=00E5FF&text_color=C9D1D9&icon_color=8B5CF6&ring_color=00E5FF" alt="GitHub statistics"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suryakanta-Creator&layout=compact&hide_border=true&bg_color=07111A&title_color=00E5FF&text_color=C9D1D9" alt="Top languages"/>
+<img src="./assets/live-stats.svg" width="100%" alt="Automatically generated live GitHub stats and language dashboard"/>
 
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=Suryakanta-Creator&theme=black-ice&hide_border=true&background=07111A&ring=00E5FF&fire=8B5CF6&currStreakLabel=00E5FF&sideLabels=C9D1D9&dates=7D8590" alt="GitHub streak"/>
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Suryakanta-Creator&bg_color=07111A&color=00E5FF&line=8B5CF6&point=FFFFFF&area=true&area_color=00E5FF&hide_border=true" width="100%" alt="GitHub activity graph"/>
+<sub>Generated from the GitHub API and refreshed automatically every day.</sub>
 
 </div>
 
