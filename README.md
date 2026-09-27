@@ -207,7 +207,7 @@ A creative space-themed project focused on immersive visuals, exploration, and i
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-season-animate.svg" width="100%" alt="Animated 3D GitHub contribution graph"/>
+<img src="./profile-3d-contrib/profile-custom-dark-neon.svg" width="100%" alt="Custom dark neon 3D GitHub contribution graph"/>
 
 <sub>Automatically generated from my real GitHub contribution history.</sub>
 
