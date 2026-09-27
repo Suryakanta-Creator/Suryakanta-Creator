@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#02070D"/><stop offset=".52" stop-color="#071522"/><stop offset="1" stop-color="#02070D"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+  text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .head{font-weight:800;font-size:22px} .num{font-weight:800;font-size:34px}
+  .label{font-size:13px} .small{font-size:14px} .tiny{font-size:12px}
+  .pulse{animation:p 2.4s ease-in-out infinite} .scan{animation:s 4s linear infinite}
+  @keyframes p{50%{opacity:.35}} @keyframes s{from{transform:translateX(-180px)}to{transform:translateX(1380px)}}
+</style>
+<rect width="1200" height="390" rx="24" fill="url(#bg)" stroke="#00E5FF" stroke-opacity=".34"/>
+<text x="34" y="48" class="head" fill="#EAFBFF">LIVE_GITHUB // TELEMETRY</text>
+<circle cx="376" cy="41" r="6" fill="#00E5FF" class="pulse"/>
+<text x="393" y="47" class="label" fill="#62EFFF">AUTO-SYNC ONLINE</text>
+<text x="1165" y="47" text-anchor="end" class="tiny" fill="#667D8D">2026-09-27 05:48 UTC</text>
+
+<g transform="translate(34 78)">
+  <rect width="252" height="112" rx="18" fill="#06131E" stroke="#12384C"/>
+  <text x="20" y="34" class="label" fill="#8198A8">PUBLIC REPOS</text>
+  <text x="20" y="82" class="num" fill="#00E5FF" filter="url(#glow)">4</text>
+</g>
+<g transform="translate(303 78)">
+  <rect width="252" height="112" rx="18" fill="#06131E" stroke="#12384C"/>
+  <text x="20" y="34" class="label" fill="#8198A8">FOLLOWERS</text>
+  <text x="20" y="82" class="num" fill="#8B5CF6" filter="url(#glow)">2</text>
+</g>
+<g transform="translate(572 78)">
+  <rect width="252" height="112" rx="18" fill="#06131E" stroke="#12384C"/>
+  <text x="20" y="34" class="label" fill="#8198A8">STARS EARNED</text>
+  <text x="20" y="82" class="num" fill="#35F2B1" filter="url(#glow)">3</text>
+</g>
+<g transform="translate(841 78)">
+  <rect width="325" height="112" rx="18" fill="#06131E" stroke="#12384C"/>
+  <text x="20" y="34" class="label" fill="#8198A8">REPO FORKS</text>
+  <text x="20" y="82" class="num" fill="#F7C948" filter="url(#glow)">0</text>
+</g>
+
+<text x="34" y="234" class="label" fill="#62EFFF">CURRENT SIGNAL</text>
+<text x="34" y="268" class="small" fill="#D8E7F0">Full Stack Development × AI × Real-world Projects</text>
+<text x="34" y="303" class="label" fill="#8198A8">BUILDING</text>
+<text x="34" y="330" class="small" fill="#00E5FF">KRUSHI SEVA</text>
+<text x="34" y="362" class="tiny" fill="#667D8D">Data generated directly from GitHub API — no fake counters.</text>
+
+<text x="640" y="214" class="label" fill="#62EFFF">LANGUAGE SIGNAL</text>
+
+      <text x="640" y="247" class="small" fill="#C9D1D9">TypeScript</text>
+      <rect x="760" y="235" width="425" height="12" rx="6" fill="#0B2233"/>
+      <rect x="760" y="235" width="0" height="12" rx="6" fill="#00E5FF">
+        <animate attributeName="width" from="0" to="189.5" dur="1.0s" fill="freeze"/>
+      </rect>
+      <text x="1175" y="246" text-anchor="end" class="tiny" fill="#8198A8">44.6%</text>
+    
+      <text x="640" y="272" class="small" fill="#C9D1D9">Java</text>
+      <rect x="760" y="260" width="425" height="12" rx="6" fill="#0B2233"/>
+      <rect x="760" y="260" width="0" height="12" rx="6" fill="#8B5CF6">
+        <animate attributeName="width" from="0" to="99.5" dur="1.18s" fill="freeze"/>
+      </rect>
+      <text x="1175" y="271" text-anchor="end" class="tiny" fill="#8198A8">23.4%</text>
+    
+      <text x="640" y="297" class="small" fill="#C9D1D9">JavaScript</text>
+      <rect x="760" y="285" width="425" height="12" rx="6" fill="#0B2233"/>
+      <rect x="760" y="285" width="0" height="12" rx="6" fill="#35F2B1">
+        <animate attributeName="width" from="0" to="77.3" dur="1.3599999999999999s" fill="freeze"/>
+      </rect>
+      <text x="1175" y="296" text-anchor="end" class="tiny" fill="#8198A8">18.2%</text>
+    
+      <text x="640" y="322" class="small" fill="#C9D1D9">Python</text>
+      <rect x="760" y="310" width="425" height="12" rx="6" fill="#0B2233"/>
+      <rect x="760" y="310" width="0" height="12" rx="6" fill="#F7C948">
+        <animate attributeName="width" from="0" to="52.6" dur="1.54s" fill="freeze"/>
+      </rect>
+      <text x="1175" y="321" text-anchor="end" class="tiny" fill="#8198A8">12.4%</text>
+    
+      <text x="640" y="347" class="small" fill="#C9D1D9">PLpgSQL</text>
+      <rect x="760" y="335" width="425" height="12" rx="6" fill="#0B2233"/>
+      <rect x="760" y="335" width="0" height="12" rx="6" fill="#FF6B9A">
+        <animate attributeName="width" from="0" to="8" dur="1.72s" fill="freeze"/>
+      </rect>
+      <text x="1175" y="346" text-anchor="end" class="tiny" fill="#8198A8">1.4%</text>
+    
+
+<rect width="150" height="390" fill="#00E5FF" opacity=".025" class="scan"/>
+</svg>
