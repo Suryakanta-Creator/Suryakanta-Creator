@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-generated-assets
+  cancel-in-progress: false
+
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -33,4 +37,5 @@ jobs:
           git add assets/github-snake.svg assets/github-snake-dark.svg
           git diff --cached --quiet && exit 0
           git commit -m "chore: refresh contribution snake"
+          git pull --rebase origin main
           git push
