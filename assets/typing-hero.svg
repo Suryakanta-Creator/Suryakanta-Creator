@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#02070d"/><stop offset=".55" stop-color="#071522"/><stop offset="1" stop-color="#02070d"/></linearGradient>
+  <linearGradient id="txt" x1="0" x2="1"><stop stop-color="#eafdff"/><stop offset=".5" stop-color="#00e5ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#0f3044" stroke-width="1" opacity=".35"/></pattern>
+  <filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <clipPath id="nameClip"><rect x="47" y="132" width="0" height="70"><animate attributeName="width" values="0;560;560;0" keyTimes="0;.42;.86;1" dur="9s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.pulse{animation:p 2.4s ease-in-out infinite}.scan{animation:s 4s linear infinite}.drift{animation:d 16s linear infinite}.b{animation:b 1s steps(2,end) infinite}@keyframes p{50%{opacity:.35}}@keyframes s{from{transform:translateY(-70px)}to{transform:translateY(490px)}}@keyframes d{to{transform:translateX(75px)}}@keyframes b{0%,49%{opacity:1}50%,100%{opacity:0}}
+</style>
+<rect width="760" height="420" rx="28" fill="url(#bg)" stroke="#00e5ff" stroke-opacity=".38"/>
+<rect width="760" height="420" rx="28" fill="url(#grid)"/>
+<g class="drift" opacity=".4"><circle cx="80" cy="72" r="2" fill="#00e5ff"/><circle cx="240" cy="54" r="1.5" fill="#8b5cf6"/><circle cx="515" cy="92" r="2" fill="#00e5ff"/></g>
+<circle cx="28" cy="27" r="5" fill="#ff5f57"/><circle cx="47" cy="27" r="5" fill="#ffbd2e"/><circle cx="66" cy="27" r="5" fill="#28c840"/>
+<text x="88" y="33" fill="#65f4ff" font-size="14">creator-terminal // identity</text>
+
+<rect x="46" y="70" width="190" height="33" rx="9" fill="#061622" stroke="#00e5ff" stroke-opacity=".5"/>
+<text x="62" y="92" fill="#61efff" font-size="15">&gt;_ HELLO, WORLD</text>
+
+<text x="47" y="127" fill="#8198a8" font-size="17">initializing developer profile...</text>
+<text x="47" y="185" clip-path="url(#nameClip)" fill="url(#txt)" font-size="43" font-weight="800" filter="url(#gl)">SURYAKANTA BALA</text>
+<rect y="146" width="7" height="49" fill="#00e5ff" class="b">
+  <animate attributeName="x" values="47;607;607;47" keyTimes="0;.42;.86;1" dur="9s" repeatCount="indefinite"/>
+</rect>
+
+<text x="49" y="228" fill="#55eaff" font-size="17">FULL STACK DEVELOPER × AI EXPLORER</text>
+<text x="49" y="258" fill="#c7d5de" font-size="15">B.Tech Student • Builder • Problem Solver</text>
+
+<g transform="translate(48 294)">
+  <rect width="300" height="42" rx="11" fill="#051823" stroke="#00e5ff" stroke-opacity=".45"/>
+  <text x="18" y="26" fill="#63f2ff" font-size="14">MISSION // KRUSHI SEVA</text>
+  <rect x="317" width="220" height="42" rx="11" fill="#07111a" stroke="#8b5cf6" stroke-opacity=".48"/>
+  <text x="338" y="26" fill="#e4ddff" font-size="14">BUILD • LEARN • GROW</text>
+</g>
+
+<text x="49" y="374" fill="#8198a8" font-size="13">status:</text>
+<circle cx="112" cy="369" r="5" fill="#35f2b1" class="pulse"/>
+<text x="126" y="374" fill="#35f2b1" font-size="13">ONLINE // TURNING IDEAS INTO SOFTWARE</text>
+<rect x="0" y="0" width="760" height="3" fill="#00e5ff" opacity=".35" class="scan"/>
+</svg>
