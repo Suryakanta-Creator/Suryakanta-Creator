@@ -167,15 +167,6 @@ My current direction is full-stack development with AI-powered features, strong 
 <td align="center" width="110">
 <img src="https://techstack-generator.vercel.app/java-icon.svg" width="66" height="66" alt="Java"/><br/><b>Java</b>
 </td>
-<td align="center" width="110">
-<img src="./assets/animated-icons/springsecurity.svg" width="66" height="66" alt="Spring Security"/><br/><b>Spring Security</b>
-</td>
-<td align="center" width="110">
-<img src="./assets/animated-icons/jsonwebtokens.svg" width="66" height="66" alt="JWT"/><br/><b>JWT</b>
-</td>
-<td align="center" width="110">
-<img src="./assets/animated-icons/zod.svg" width="66" height="66" alt="Zod"/><br/><b>Zod</b>
-</td>
 </tr>
 </table>
 
@@ -195,12 +186,6 @@ My current direction is full-stack development with AI-powered features, strong 
 </td>
 <td align="center" width="110">
 <img src="./assets/animated-icons/supabase.svg" width="66" height="66" alt="Supabase"/><br/><b>Supabase</b>
-</td>
-<td align="center" width="110">
-<img src="./assets/animated-icons/supabase.svg" width="66" height="66" alt="Supabase Auth"/><br/><b>Supabase Auth</b>
-</td>
-<td align="center" width="110">
-<img src="./assets/animated-icons/supabase.svg" width="66" height="66" alt="Supabase Storage"/><br/><b>Supabase Storage</b>
 </td>
 </tr>
 </table>
@@ -222,12 +207,6 @@ My current direction is full-stack development with AI-powered features, strong 
 <td align="center" width="110">
 <img src="./assets/animated-icons/googlegemini.svg" width="66" height="66" alt="Google Gemini"/><br/><b>Google Gemini</b>
 </td>
-<td align="center" width="110">
-<img src="./assets/animated-icons/vercel.svg" width="66" height="66" alt="Vercel AI SDK"/><br/><b>Vercel AI SDK</b>
-</td>
-<td align="center" width="110">
-<img src="./assets/animated-icons/huggingface.svg" width="66" height="66" alt="Transformers.js"/><br/><b>Transformers.js</b>
-</td>
 </tr>
 </table>
 
@@ -247,12 +226,6 @@ My current direction is full-stack development with AI-powered features, strong 
 </td>
 <td align="center" width="110">
 <img src="./assets/animated-icons/vercel.svg" width="66" height="66" alt="Vercel"/><br/><b>Vercel</b>
-</td>
-<td align="center" width="110">
-<img src="./assets/animated-icons/apachemaven.svg" width="66" height="66" alt="Maven"/><br/><b>Maven</b>
-</td>
-<td align="center" width="110">
-<img src="./assets/animated-icons/githubactions.svg" width="66" height="66" alt="GitHub Actions"/><br/><b>GitHub Actions</b>
 </td>
 </tr>
 </table>
