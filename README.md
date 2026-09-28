@@ -70,24 +70,91 @@ My current direction is full-stack development with AI-powered features, strong 
 <img src="./assets/tech-orbit.svg" width="100%" alt="Animated orbiting technology stack"/>
 </div>
 
-### `LANGUAGES`
+<br/>
+
+### `ANIMATED_CORE`
+
 <div align="center">
-<img src="https://skillicons.dev/icons?i=java,js,ts,python&perline=8" alt="Java JavaScript TypeScript Python"/>
+
+<table>
+<tr>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/java-icon.svg" width="66" height="66" alt="Java"/><br/><b>Java</b>
+</td>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/js-icon.svg" width="66" height="66" alt="JavaScript"/><br/><b>JavaScript</b>
+</td>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/python-icon.svg" width="66" height="66" alt="Python"/><br/><b>Python</b>
+</td>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/react-icon.svg" width="66" height="66" alt="React"/><br/><b>React</b>
+</td>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="66" height="66" alt="MySQL"/><br/><b>MySQL</b>
+</td>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/github-icon.svg" width="66" height="66" alt="GitHub"/><br/><b>GitHub</b>
+</td>
+</tr>
+</table>
+
+<sub>Animated stack icons — moving with the profile instead of sitting like a boring logo wall.</sub>
+
 </div>
 
-### `FRONTEND`
+### `LANGUAGES_&_FOUNDATIONS`
 <div align="center">
-<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind&perline=8" alt="React Next.js HTML CSS Tailwind CSS"/>
+<img src="https://skillicons.dev/icons?i=java,js,ts,python,html,css&perline=8" alt="Java JavaScript TypeScript Python HTML CSS"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/SQL-07111A?style=for-the-badge&logo=postgresql&logoColor=00E5FF" alt="SQL"/>
+<img src="https://img.shields.io/badge/REST_APIs-07111A?style=for-the-badge&logo=fastapi&logoColor=00E5FF" alt="REST APIs"/>
 </div>
 
-### `BACKEND_&_DATA`
+### `FRONTEND_&_UI`
 <div align="center">
-<img src="https://skillicons.dev/icons?i=spring,mysql,postgres,supabase&perline=8" alt="Spring Boot MySQL PostgreSQL Supabase"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&perline=8" alt="React Next.js Vite Tailwind CSS"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/Framer_Motion-07111A?style=for-the-badge&logo=framer&logoColor=00E5FF" alt="Framer Motion"/>
+<img src="https://img.shields.io/badge/Axios-07111A?style=for-the-badge&logo=axios&logoColor=8B5CF6" alt="Axios"/>
+<img src="https://img.shields.io/badge/Recharts-07111A?style=for-the-badge&logo=chartdotjs&logoColor=00E5FF" alt="Recharts"/>
+<img src="https://img.shields.io/badge/Lucide-07111A?style=for-the-badge&logo=lucide&logoColor=8B5CF6" alt="Lucide"/>
 </div>
 
-### `TOOLS_&_WORKFLOW`
+### `BACKEND_&_APIS`
 <div align="center">
-<img src="https://skillicons.dev/icons?i=git,github,vscode&perline=8" alt="Git GitHub Visual Studio Code"/>
+<img src="https://skillicons.dev/icons?i=spring,fastapi,nodejs&perline=8" alt="Spring Boot FastAPI Node.js"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/Spring_Security-07111A?style=for-the-badge&logo=springsecurity&logoColor=00E5FF" alt="Spring Security"/>
+<img src="https://img.shields.io/badge/JWT-07111A?style=for-the-badge&logo=jsonwebtokens&logoColor=8B5CF6" alt="JWT"/>
+</div>
+
+### `DATABASE_&_AUTH`
+<div align="center">
+<img src="https://skillicons.dev/icons?i=mysql,postgres,supabase&perline=8" alt="MySQL PostgreSQL Supabase"/>
+</div>
+
+### `AI_&_COMPUTER_VISION`
+<div align="center">
+<img src="https://skillicons.dev/icons?i=opencv&perline=8" alt="OpenCV"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/Google_Gemini-07111A?style=for-the-badge&logo=googlegemini&logoColor=00E5FF" alt="Google Gemini"/>
+<img src="https://img.shields.io/badge/Tesseract_OCR-07111A?style=for-the-badge&logo=googlelens&logoColor=8B5CF6" alt="Tesseract OCR"/>
+<img src="https://img.shields.io/badge/AI_Integration-07111A?style=for-the-badge&logo=openai&logoColor=00E5FF" alt="AI Integration"/>
+</div>
+
+### `MAPS_&_VISUALIZATION`
+<div align="center">
+<img src="https://img.shields.io/badge/Leaflet-07111A?style=for-the-badge&logo=leaflet&logoColor=00E5FF" alt="Leaflet"/>
+<img src="https://img.shields.io/badge/Data_Visualization-07111A?style=for-the-badge&logo=chartdotjs&logoColor=8B5CF6" alt="Data Visualization"/>
+</div>
+
+### `DEPLOYMENT_&_TOOLS`
+<div align="center">
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel&perline=8" alt="Git GitHub Visual Studio Code Vercel"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/GitHub_Actions-07111A?style=for-the-badge&logo=githubactions&logoColor=00E5FF" alt="GitHub Actions"/>
+<img src="https://img.shields.io/badge/Vercel_Deployment-07111A?style=for-the-badge&logo=vercel&logoColor=8B5CF6" alt="Vercel Deployment"/>
 </div>
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
