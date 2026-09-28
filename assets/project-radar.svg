@@ -1,26 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
 <defs>
   <radialGradient id="bg"><stop stop-color="#0A1D2A"/><stop offset="1" stop-color="#02070D"/></radialGradient>
   <filter id="gl"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
-text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.sweep{animation:r 5s linear infinite;transform-origin:600px 170px}.p1{animation:p 2s ease-in-out infinite}.p2{animation:p 2.6s ease-in-out infinite}.p3{animation:p 3.1s ease-in-out infinite}.dash{stroke-dasharray:8 10;animation:d 14s linear infinite}@keyframes r{to{transform:rotate(360deg)}}@keyframes p{50%{opacity:.28;transform:scale(.94)}}@keyframes d{to{stroke-dashoffset:-300}}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.sweep{animation:r 5s linear infinite;transform-origin:600px 170px}
+.p1{animation:p 2s ease-in-out infinite}.p2{animation:p 2.6s ease-in-out infinite}.p3{animation:p 3.1s ease-in-out infinite}
+.dash{stroke-dasharray:8 10;animation:d 14s linear infinite}
+.live{animation:blink 1.8s ease-in-out infinite}
+@keyframes r{to{transform:rotate(360deg)}}@keyframes p{50%{opacity:.35;transform:scale(.95)}}@keyframes d{to{stroke-dashoffset:-300}}@keyframes blink{50%{opacity:.35}}
 </style>
-<rect width="1200" height="330" rx="24" fill="url(#bg)" stroke="#00E5FF" stroke-opacity=".28"/>
-<text x="34" y="45" fill="#62EFFF" font-size="16">PROJECT_RADAR // LIVE</text>
+
+<rect width="1200" height="340" rx="24" fill="url(#bg)" stroke="#00E5FF" stroke-opacity=".28"/>
+<text x="34" y="42" fill="#62EFFF" font-size="16" font-weight="700">PROJECT_RADAR // AUTO</text>
+<circle cx="220" cy="36" r="5" fill="#35F2B1" class="live"/>
+<text x="234" y="42" fill="#35F2B1" font-size="11">LIVE FROM GITHUB</text>
+
 <g opacity=".35">
-<circle cx="600" cy="170" r="55" fill="none" stroke="#17445A"/><circle cx="600" cy="170" r="105" fill="none" stroke="#17445A"/><circle cx="600" cy="170" r="150" fill="none" stroke="#17445A"/>
-<line x1="450" y1="170" x2="750" y2="170" stroke="#17445A"/><line x1="600" y1="20" x2="600" y2="320" stroke="#17445A"/>
+  <circle cx="600" cy="170" r="55" fill="none" stroke="#17445A"/>
+  <circle cx="600" cy="170" r="105" fill="none" stroke="#17445A"/>
+  <circle cx="600" cy="170" r="150" fill="none" stroke="#17445A"/>
+  <line x1="450" y1="170" x2="750" y2="170" stroke="#17445A"/>
+  <line x1="600" y1="20" x2="600" y2="320" stroke="#17445A"/>
 </g>
-<g class="sweep"><path d="M600 170 L600 20 A150 150 0 0 1 706 64 Z" fill="#00E5FF" opacity=".09"/><line x1="600" y1="170" x2="600" y2="20" stroke="#00E5FF" stroke-width="3" opacity=".7" filter="url(#gl)"/></g>
-<path d="M600 170 L450 95 L360 210 L790 235 Z" fill="none" stroke="#00E5FF" stroke-opacity=".28" class="dash"/>
-<g class="p1" style="transform-origin:450px 95px"><circle cx="450" cy="95" r="15" fill="#00E5FF" opacity=".18"/><circle cx="450" cy="95" r="6" fill="#00E5FF"/><text x="470" y="100" fill="#D8E7F0" font-size="14">KRUSHI SEVA</text></g>
-<g class="p2" style="transform-origin:360px 210px"><circle cx="360" cy="210" r="15" fill="#8B5CF6" opacity=".18"/><circle cx="360" cy="210" r="6" fill="#8B5CF6"/><text x="380" y="215" fill="#D8E7F0" font-size="14">PACKCHECK AI</text></g>
-<g class="p3" style="transform-origin:790px 235px"><circle cx="790" cy="235" r="15" fill="#35F2B1" opacity=".18"/><circle cx="790" cy="235" r="6" fill="#35F2B1"/><text x="810" y="240" fill="#D8E7F0" font-size="14">COSMIC WORLD</text></g>
-<text x="845" y="88" fill="#8198A8" font-size="13">SIGNAL QUALITY</text>
-<text x="845" y="118" fill="#00E5FF" font-size="18">BUILDING</text>
-<text x="845" y="148" fill="#8198A8" font-size="13">CURRENT PRIORITY</text>
-<text x="845" y="178" fill="#35F2B1" font-size="18">KRUSHI SEVA</text>
-<text x="845" y="208" fill="#8198A8" font-size="13">NEXT SYSTEM</text>
-<text x="845" y="238" fill="#8B5CF6" font-size="18">PORTFOLIO</text>
+
+<g class="sweep">
+  <path d="M600 170 L600 20 A150 150 0 0 1 706 64 Z" fill="#00E5FF" opacity=".09"/>
+  <line x1="600" y1="170" x2="600" y2="20" stroke="#00E5FF" stroke-width="3" opacity=".7" filter="url(#gl)"/>
+</g>
+
+<path d="M425 88 L338 204 L455 270 L690 82 Z" fill="none" stroke="#00E5FF" stroke-opacity=".24" class="dash"/>
+
+<g class="p1" style="transform-origin:425px 88px">
+  <circle cx="425" cy="88" r="17" fill="#00E5FF" opacity=".18"/>
+  <circle cx="425" cy="88" r="6" fill="#00E5FF" filter="url(#gl)"/>
+  <text x="445" y="92" fill="#E6FBFF" font-size="13" font-weight="700">AI-Study-Asistant</text>
+  <text x="445" y="110" fill="#8198A8" font-size="10">TypeScript</text>
+</g>
+<g class="p2" style="transform-origin:338px 204px">
+  <circle cx="338" cy="204" r="17" fill="#8B5CF6" opacity=".18"/>
+  <circle cx="338" cy="204" r="6" fill="#8B5CF6" filter="url(#gl)"/>
+  <text x="358" y="208" fill="#E6FBFF" font-size="13" font-weight="700">cosmic_world</text>
+  <text x="358" y="226" fill="#8198A8" font-size="10">TypeScript</text>
+</g>
+<g class="p3" style="transform-origin:455px 270px">
+  <circle cx="455" cy="270" r="17" fill="#35F2B1" opacity=".18"/>
+  <circle cx="455" cy="270" r="6" fill="#35F2B1" filter="url(#gl)"/>
+  <text x="475" y="274" fill="#E6FBFF" font-size="13" font-weight="700">PackCheck-AI</text>
+  <text x="475" y="292" fill="#8198A8" font-size="10">Java</text>
+</g>
+<g class="p1" style="transform-origin:690px 82px">
+  <circle cx="690" cy="82" r="17" fill="#FF3CAC" opacity=".18"/>
+  <circle cx="690" cy="82" r="6" fill="#FF3CAC" filter="url(#gl)"/>
+  <text x="710" y="86" fill="#E6FBFF" font-size="13" font-weight="700">Krushi-seva</text>
+  <text x="710" y="104" fill="#8198A8" font-size="10">TypeScript</text>
+</g>
+
+<g>
+  <text x="900" y="82" fill="#8198A8" font-size="12">LATEST PUSH</text>
+  <text x="900" y="108" fill="#35F2B1" font-size="17" font-weight="700">AI-Study-Asistant</text>
+
+  <text x="900" y="142" fill="#8198A8" font-size="12">PRIMARY LANGUAGE</text>
+  <text x="900" y="168" fill="#00E5FF" font-size="16">TypeScript</text>
+
+  <text x="900" y="202" fill="#8198A8" font-size="12">PROJECTS TRACKED</text>
+  <text x="900" y="228" fill="#8B5CF6" font-size="16">4</text>
+
+  <text x="900" y="262" fill="#8198A8" font-size="12">AUTO REFRESH</text>
+  <text x="900" y="288" fill="#FF3CAC" font-size="16">EVERY 30 MIN</text>
+
+  <text x="900" y="316" fill="#5F7482" font-size="10">SYNC 2026-09-28 06:59 UTC</text>
+</g>
 </svg>
