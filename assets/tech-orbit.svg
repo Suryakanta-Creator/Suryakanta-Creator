@@ -1,47 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
 <defs>
   <radialGradient id="bg"><stop stop-color="#0b2030"/><stop offset="1" stop-color="#02070d"/></radialGradient>
   <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="1.2"/></filter>
 </defs>
 <style>
 text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-.outer{animation:spin 20s linear infinite;transform-origin:600px 180px}
-.inner{animation:spinBack 14s linear infinite;transform-origin:600px 180px}
+.outer{animation:spin 22s linear infinite;transform-origin:600px 195px}
+.inner{animation:spinBack 15s linear infinite;transform-origin:600px 195px}
 .float{animation:float 2.8s ease-in-out infinite}
 .float2{animation:float2 3.4s ease-in-out infinite}
+.float3{animation:float3 4.1s ease-in-out infinite}
 .pulse{animation:pulse 2.2s ease-in-out infinite}
-.scan{animation:scan 4s linear infinite}
+.scan{animation:scan 4.5s linear infinite}
+.dash{animation:dash 8s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}} @keyframes spinBack{to{transform:rotate(-360deg)}}
-@keyframes float{50%{transform:translateY(-7px)}} @keyframes float2{50%{transform:translateY(6px)}}
-@keyframes pulse{50%{opacity:.45}} @keyframes scan{0%{transform:translateX(-220px)}100%{transform:translateX(1220px)}}
+@keyframes float{50%{transform:translateY(-8px)}} @keyframes float2{50%{transform:translateY(7px)}} @keyframes float3{50%{transform:translate(5px,-5px)}}
+@keyframes pulse{50%{opacity:.42}} @keyframes scan{0%{transform:translateX(-240px)}100%{transform:translateX(1240px)}} @keyframes dash{to{stroke-dashoffset:-120}}
 </style>
-<rect width="1200" height="360" rx="26" fill="url(#bg)" stroke="#00e5ff" stroke-opacity=".30"/>
-<rect x="0" y="0" width="180" height="2" fill="#00e5ff" opacity=".55" class="scan"/>
-<circle cx="600" cy="180" r="142" fill="none" stroke="#00e5ff" stroke-opacity=".17" stroke-dasharray="5 9"/>
-<circle cx="600" cy="180" r="96" fill="none" stroke="#8b5cf6" stroke-opacity=".25" stroke-dasharray="4 7"/>
+<rect width="1200" height="390" rx="26" fill="url(#bg)" stroke="#00e5ff" stroke-opacity=".30"/>
+<rect x="0" y="0" width="200" height="2" fill="#00e5ff" opacity=".55" class="scan"/>
+<circle cx="600" cy="195" r="150" fill="none" stroke="#00e5ff" stroke-opacity=".18" stroke-dasharray="5 9" class="dash"/>
+<circle cx="600" cy="195" r="101" fill="none" stroke="#8b5cf6" stroke-opacity=".28" stroke-dasharray="4 7" class="dash"/>
+
 <g class="float">
-  <circle cx="600" cy="180" r="62" fill="#071724" stroke="#00e5ff" stroke-opacity=".8" filter="url(#glow)"/>
-  <text x="600" y="174" text-anchor="middle" fill="#e6fbff" font-size="17" font-weight="700">SURYAKANTA</text>
-  <text x="600" y="198" text-anchor="middle" fill="#00e5ff" font-size="13">FULL STACK × AI</text>
+  <circle cx="600" cy="195" r="64" fill="#071724" stroke="#00e5ff" stroke-opacity=".85" filter="url(#glow)"/>
+  <text x="600" y="188" text-anchor="middle" fill="#e6fbff" font-size="17" font-weight="700">SURYAKANTA</text>
+  <text x="600" y="213" text-anchor="middle" fill="#00e5ff" font-size="13">FULL STACK × AI</text>
 </g>
+
 <g class="outer">
-  <g transform="translate(600 38)"><circle r="29" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">JAVA</text></g>
-  <g transform="translate(723 109)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">REACT</text></g>
-  <g transform="translate(723 251)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">NEXT.JS</text></g>
-  <g transform="translate(600 322)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">PYTHON</text></g>
-  <g transform="translate(477 251)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">SPRING</text></g>
-  <g transform="translate(477 109)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">FASTAPI</text></g>
+  <g transform="translate(600 45)"><circle r="30" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">JAVA</text></g>
+  <g transform="translate(730 120)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">REACT</text></g>
+  <g transform="translate(730 270)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">NEXT.JS</text></g>
+  <g transform="translate(600 345)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">PYTHON</text></g>
+  <g transform="translate(470 270)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">SPRING</text></g>
+  <g transform="translate(470 120)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="10">FASTAPI</text></g>
 </g>
+
 <g class="inner">
-  <g transform="translate(600 84)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="9">TYPESCRIPT</text></g>
-  <g transform="translate(683 132)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="10">VITE</text></g>
-  <g transform="translate(683 228)"><circle r="25" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="9">SUPABASE</text></g>
-  <g transform="translate(600 276)"><circle r="25" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="9">POSTGRES</text></g>
-  <g transform="translate(517 228)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="10">MYSQL</text></g>
-  <g transform="translate(517 132)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="10">GIT</text></g>
+  <g transform="translate(600 94)"><circle r="25" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="9">TYPESCRIPT</text></g>
+  <g transform="translate(687 145)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="10">VITE</text></g>
+  <g transform="translate(687 245)"><circle r="25" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="9">SUPABASE</text></g>
+  <g transform="translate(600 296)"><circle r="25" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="9">POSTGRES</text></g>
+  <g transform="translate(513 245)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="10">MYSQL</text></g>
+  <g transform="translate(513 145)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="10">GIT</text></g>
 </g>
-<text x="38" y="55" fill="#63f2ff" font-size="15" class="pulse">TECH_ORBIT // LIVE</text>
-<text x="38" y="84" fill="#8198a8" font-size="13">moving stack • real tools • real builds</text>
-<text x="38" y="112" fill="#d8e7f0" font-size="15">BUILD → TEST → LEARN → SHIP</text>
-<g class="float2"><text x="918" y="286" fill="#8198a8" font-size="12">SYSTEM</text><text x="918" y="311" fill="#63f2ff" font-size="15">FULL STACK × AI</text><text x="918" y="333" fill="#b69cff" font-size="12">STATUS // ACTIVE</text></g>
+
+<g class="float2">
+  <rect x="58" y="145" width="150" height="38" rx="19" fill="#071724" stroke="#00e5ff" stroke-opacity=".55"/>
+  <text x="133" y="169" text-anchor="middle" fill="#c9f9ff" font-size="12">THREE.JS / R3F</text>
+  <rect x="70" y="208" width="138" height="38" rx="19" fill="#0d1020" stroke="#8b5cf6" stroke-opacity=".7"/>
+  <text x="139" y="232" text-anchor="middle" fill="#e9ddff" font-size="12">FRAMER MOTION</text>
+</g>
+
+<g class="float3">
+  <rect x="970" y="108" width="156" height="38" rx="19" fill="#071724" stroke="#00e5ff" stroke-opacity=".55"/>
+  <text x="1048" y="132" text-anchor="middle" fill="#c9f9ff" font-size="12">GEMINI / AI SDK</text>
+  <rect x="986" y="169" width="140" height="38" rx="19" fill="#0d1020" stroke="#8b5cf6" stroke-opacity=".7"/>
+  <text x="1056" y="193" text-anchor="middle" fill="#e9ddff" font-size="12">OPENCV + OCR</text>
+  <rect x="978" y="230" width="148" height="38" rx="19" fill="#071724" stroke="#00e5ff" stroke-opacity=".55"/>
+  <text x="1052" y="254" text-anchor="middle" fill="#c9f9ff" font-size="12">VERCEL + ACTIONS</text>
+</g>
+
+<text x="38" y="52" fill="#63f2ff" font-size="15" class="pulse">TECH_ORBIT // LIVE</text>
+<text x="38" y="80" fill="#8198a8" font-size="13">moving stack • floating tools • real builds</text>
+<text x="38" y="108" fill="#d8e7f0" font-size="15">BUILD → TEST → LEARN → SHIP</text>
+
+<g class="float2">
+  <text x="930" y="314" fill="#8198a8" font-size="12">SYSTEM</text>
+  <text x="930" y="339" fill="#63f2ff" font-size="15">FULL STACK × AI</text>
+  <text x="930" y="361" fill="#b69cff" font-size="12">STATUS // ACTIVE</text>
+</g>
 </svg>
