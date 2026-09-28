@@ -124,49 +124,27 @@ My current direction is full-stack development with AI-powered features, strong 
 
 ### `3D_&_INTERACTION`
 <div align="center">
-<img src="https://skillicons.dev/icons?i=threejs&perline=8" alt="Three.js"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/React_Three_Fiber-07111A?style=for-the-badge&logo=threedotjs&logoColor=00E5FF" alt="React Three Fiber"/>
-<img src="https://img.shields.io/badge/React_Three_Drei-07111A?style=for-the-badge&logo=threedotjs&logoColor=8B5CF6" alt="React Three Drei"/>
-<img src="https://img.shields.io/badge/Leaflet-07111A?style=for-the-badge&logo=leaflet&logoColor=00E5FF" alt="Leaflet"/>
+<img src="./assets/stack-3d-interaction.svg" width="100%" alt="Animated Three.js React Three Fiber Framer Motion and Leaflet stack"/>
 </div>
 
 ### `BACKEND_&_APIS`
 <div align="center">
-<img src="https://skillicons.dev/icons?i=spring,fastapi,nodejs&perline=8" alt="Spring Boot FastAPI Node.js"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Spring_Security-07111A?style=for-the-badge&logo=springsecurity&logoColor=00E5FF" alt="Spring Security"/>
-<img src="https://img.shields.io/badge/JPA-07111A?style=for-the-badge&logo=hibernate&logoColor=8B5CF6" alt="JPA"/>
-<img src="https://img.shields.io/badge/JWT-07111A?style=for-the-badge&logo=jsonwebtokens&logoColor=00E5FF" alt="JWT"/>
-<img src="https://img.shields.io/badge/Zod-07111A?style=for-the-badge&logo=zod&logoColor=8B5CF6" alt="Zod"/>
+<img src="./assets/stack-backend-apis.svg" width="100%" alt="Animated Spring Boot FastAPI Node.js security JPA JWT and Zod stack"/>
 </div>
 
 ### `DATABASE_&_AUTH`
 <div align="center">
-<img src="https://skillicons.dev/icons?i=mysql,postgres,supabase&perline=8" alt="MySQL PostgreSQL Supabase"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Supabase_Auth-07111A?style=for-the-badge&logo=supabase&logoColor=00E5FF" alt="Supabase Auth"/>
-<img src="https://img.shields.io/badge/Supabase_Storage-07111A?style=for-the-badge&logo=supabase&logoColor=8B5CF6" alt="Supabase Storage"/>
+<img src="./assets/stack-database-auth.svg" width="100%" alt="Animated MySQL PostgreSQL Supabase auth and storage stack"/>
 </div>
 
 ### `AI_&_COMPUTER_VISION`
 <div align="center">
-<img src="https://skillicons.dev/icons?i=opencv&perline=8" alt="OpenCV"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Google_Gemini-07111A?style=for-the-badge&logo=googlegemini&logoColor=00E5FF" alt="Google Gemini"/>
-<img src="https://img.shields.io/badge/Vercel_AI_SDK-07111A?style=for-the-badge&logo=vercel&logoColor=8B5CF6" alt="Vercel AI SDK"/>
-<img src="https://img.shields.io/badge/Transformers.js-07111A?style=for-the-badge&logo=huggingface&logoColor=00E5FF" alt="Transformers.js"/>
-<img src="https://img.shields.io/badge/Tesseract_OCR-07111A?style=for-the-badge&logo=googlelens&logoColor=8B5CF6" alt="Tesseract OCR"/>
-<img src="https://img.shields.io/badge/PDF_Processing-07111A?style=for-the-badge&logo=adobeacrobatreader&logoColor=00E5FF" alt="PDF Processing"/>
+<img src="./assets/stack-ai-vision.svg" width="100%" alt="Animated OpenCV Gemini AI SDK Transformers Tesseract and PDF stack"/>
 </div>
 
 ### `BUILD_DEPLOY_&_WORKFLOW`
 <div align="center">
-<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel&perline=8" alt="Git GitHub Visual Studio Code Vercel"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Maven-07111A?style=for-the-badge&logo=apachemaven&logoColor=00E5FF" alt="Maven"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-07111A?style=for-the-badge&logo=githubactions&logoColor=8B5CF6" alt="GitHub Actions"/>
-<img src="https://img.shields.io/badge/Vercel_Deployment-07111A?style=for-the-badge&logo=vercel&logoColor=00E5FF" alt="Vercel Deployment"/>
+<img src="./assets/stack-build-deploy.svg" width="100%" alt="Animated Git GitHub VS Code Vercel Maven and GitHub Actions stack"/>
 </div>
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
