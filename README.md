@@ -22,7 +22,7 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF3CAC,45:784BA0,100:2B86C5&height=150&section=footer&animation=twinkling" width="100%" alt="Animated neon wave transition"/>
+<img src="./assets/welcome-color-wave.svg" width="100%" alt="Slowly color-shifting animated welcome wave"/>
 </div>
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
@@ -364,9 +364,9 @@ My current direction is full-stack development with AI-powered features, strong 
 
 <div align="center">
 
-<img src="./profile-3d-contrib/profile-custom-dark-neon.svg" width="100%" alt="Custom dark neon 3D GitHub contribution graph"/>
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Animated rainbow 3D GitHub contribution graph"/>
 
-<sub>Automatically generated from my real GitHub contribution history.</sub>
+<sub>Automatically generated from my real GitHub contribution history with an animated night-rainbow color theme.</sub>
 
 </div>
 
