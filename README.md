@@ -123,28 +123,142 @@ My current direction is full-stack development with AI-powered features, strong 
 </div>
 
 ### `3D_&_INTERACTION`
+
 <div align="center">
-<img src="./assets/stack-3d-interaction.svg" width="100%" alt="Animated Three.js React Three Fiber Framer Motion and Leaflet stack"/>
+
+<table>
+<tr>
+<td align="center" width="110">
+<img src="./assets/animated-icons/threedotjs.svg" width="66" height="66" alt="Three.js"/><br/><b>Three.js</b>
+</td>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/react-icon.svg" width="66" height="66" alt="React Three Fiber"/><br/><b>React Three Fiber</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/threedotjs.svg" width="66" height="66" alt="Drei"/><br/><b>Drei</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/framer.svg" width="66" height="66" alt="Framer Motion"/><br/><b>Framer Motion</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/leaflet.svg" width="66" height="66" alt="Leaflet"/><br/><b>Leaflet</b>
+</td>
+</tr>
+</table>
+
 </div>
 
 ### `BACKEND_&_APIS`
+
 <div align="center">
-<img src="./assets/stack-backend-apis.svg" width="100%" alt="Animated Spring Boot FastAPI Node.js security JPA JWT and Zod stack"/>
+
+<table>
+<tr>
+<td align="center" width="110">
+<img src="./assets/animated-icons/springboot.svg" width="66" height="66" alt="Spring Boot"/><br/><b>Spring Boot</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/fastapi.svg" width="66" height="66" alt="FastAPI"/><br/><b>FastAPI</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/nodedotjs.svg" width="66" height="66" alt="Node.js"/><br/><b>Node.js</b>
+</td>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/restapi-icon.svg" width="66" height="66" alt="REST API"/><br/><b>REST API</b>
+</td>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/java-icon.svg" width="66" height="66" alt="Java"/><br/><b>Java</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/springsecurity.svg" width="66" height="66" alt="Spring Security"/><br/><b>Spring Security</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/jsonwebtokens.svg" width="66" height="66" alt="JWT"/><br/><b>JWT</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/zod.svg" width="66" height="66" alt="Zod"/><br/><b>Zod</b>
+</td>
+</tr>
+</table>
+
 </div>
 
 ### `DATABASE_&_AUTH`
+
 <div align="center">
-<img src="./assets/stack-database-auth.svg" width="100%" alt="Animated MySQL PostgreSQL Supabase auth and storage stack"/>
+
+<table>
+<tr>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="66" height="66" alt="MySQL"/><br/><b>MySQL</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/postgresql.svg" width="66" height="66" alt="PostgreSQL"/><br/><b>PostgreSQL</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/supabase.svg" width="66" height="66" alt="Supabase"/><br/><b>Supabase</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/supabase.svg" width="66" height="66" alt="Supabase Auth"/><br/><b>Supabase Auth</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/supabase.svg" width="66" height="66" alt="Supabase Storage"/><br/><b>Supabase Storage</b>
+</td>
+</tr>
+</table>
+
 </div>
 
 ### `AI_&_COMPUTER_VISION`
+
 <div align="center">
-<img src="./assets/stack-ai-vision.svg" width="100%" alt="Animated OpenCV Gemini AI SDK Transformers Tesseract and PDF stack"/>
+
+<table>
+<tr>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/python-icon.svg" width="66" height="66" alt="Python"/><br/><b>Python</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/opencv.svg" width="66" height="66" alt="OpenCV"/><br/><b>OpenCV</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/googlegemini.svg" width="66" height="66" alt="Google Gemini"/><br/><b>Google Gemini</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/vercel.svg" width="66" height="66" alt="Vercel AI SDK"/><br/><b>Vercel AI SDK</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/huggingface.svg" width="66" height="66" alt="Transformers.js"/><br/><b>Transformers.js</b>
+</td>
+</tr>
+</table>
+
 </div>
 
 ### `BUILD_DEPLOY_&_WORKFLOW`
+
 <div align="center">
-<img src="./assets/stack-build-deploy.svg" width="100%" alt="Animated Git GitHub VS Code Vercel Maven and GitHub Actions stack"/>
+
+<table>
+<tr>
+<td align="center" width="110">
+<img src="https://techstack-generator.vercel.app/github-icon.svg" width="66" height="66" alt="GitHub"/><br/><b>GitHub</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/git.svg" width="66" height="66" alt="Git"/><br/><b>Git</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/vercel.svg" width="66" height="66" alt="Vercel"/><br/><b>Vercel</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/apachemaven.svg" width="66" height="66" alt="Maven"/><br/><b>Maven</b>
+</td>
+<td align="center" width="110">
+<img src="./assets/animated-icons/githubactions.svg" width="66" height="66" alt="GitHub Actions"/><br/><b>GitHub Actions</b>
+</td>
+</tr>
+</table>
+
 </div>
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
