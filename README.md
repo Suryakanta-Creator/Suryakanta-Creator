@@ -18,7 +18,7 @@
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
 
 <div align="center">
-<img src="./assets/system-boot.svg" width="100%" alt="Animated developer system boot"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF3CAC,45:784BA0,100:2B86C5&height=150&section=footer&animation=twinkling" width="100%" alt="Animated neon wave transition"/>
 </div>
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
