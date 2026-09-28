@@ -34,7 +34,6 @@ const suryakanta = {
   username: "Suryakanta-Creator",
   education: "B.Tech Student",
   focus: ["Full Stack", "AI", "Software Engineering"],
-  building: "Krushi Seva",
   philosophy: "Learn. Build. Grow. Repeat."
 };
 ```
@@ -49,7 +48,6 @@ My current direction is full-stack development with AI-powered features, strong 
 ### `SYSTEM_STATUS`
 
 `● ONLINE` — Building & learning  
-`● ACTIVE` — Krushi Seva  
 `● ACTIVE` — Full-stack development  
 `● EXPLORING` — AI-powered products  
 `● QUEUED` — Personal portfolio  
@@ -275,7 +273,7 @@ My current direction is full-stack development with AI-powered features, strong 
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 🌾 Krushi Seva
 
@@ -286,10 +284,13 @@ Disease/pest detection, weather-assisted risk estimation, GIS outbreak intellige
 `Next.js` `TypeScript` `Supabase`  
 `Tailwind` `Gemini` `Leaflet`
 
-<p align="center"><a href="https://github.com/Suryakanta-Creator/Krushi-seva"><img src="https://img.shields.io/badge/VIEW_BUILD-%E2%86%92-00E5FF?style=for-the-badge&labelColor=07111A" alt="Krushi Seva"/></a></p>
+<p align="center">
+<a href="https://krushi-seva-nu.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-%E2%86%92-00E5FF?style=for-the-badge&labelColor=07111A" alt="Krushi Seva Live"/></a>
+<a href="https://github.com/Suryakanta-Creator/Krushi-seva"><img src="https://img.shields.io/badge/SOURCE_CODE-%E2%86%92-8B5CF6?style=for-the-badge&labelColor=07111A" alt="Krushi Seva Source"/></a>
+</p>
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 📦 PackCheck AI
 
@@ -300,21 +301,47 @@ OCR-based label extraction, rule evaluation, evidence highlighting, and human re
 `React` `Spring Boot` `Python`  
 `FastAPI` `MySQL` `OpenCV`
 
-<p align="center"><a href="https://github.com/Suryakanta-Creator/PackCheck-AI"><img src="https://img.shields.io/badge/VIEW_BUILD-%E2%86%92-8B5CF6?style=for-the-badge&labelColor=07111A" alt="PackCheck AI"/></a></p>
+<p align="center">
+<a href="https://pack-check-ai-eight.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-%E2%86%92-00E5FF?style=for-the-badge&labelColor=07111A" alt="PackCheck AI Live"/></a>
+<a href="https://github.com/Suryakanta-Creator/PackCheck-AI"><img src="https://img.shields.io/badge/SOURCE_CODE-%E2%86%92-8B5CF6?style=for-the-badge&labelColor=07111A" alt="PackCheck AI Source"/></a>
+</p>
 
 </td>
-<td width="33%" valign="top">
+</tr>
+
+<tr>
+<td width="50%" valign="top">
 
 ### 🌌 Cosmic World
 
-**Interactive space experience**
+**Interactive AI-powered space experience**
 
-A creative space-themed project focused on immersive visuals, exploration, and interactive web experiences.
+Immersive 3D visuals, motion-driven exploration, interactive astronomy experiences, and AI-assisted features.
 
-`Interactive Web` `Creative UI`  
-`Space Experience`
+`React` `TypeScript` `Vite`  
+`Three.js` `React Three Fiber` `Supabase`
 
-<p align="center"><a href="https://github.com/Suryakanta-Creator/cosmic_world"><img src="https://img.shields.io/badge/VIEW_BUILD-%E2%86%92-00E5FF?style=for-the-badge&labelColor=07111A" alt="Cosmic World"/></a></p>
+<p align="center">
+<a href="https://cosmicworld.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-%E2%86%92-00E5FF?style=for-the-badge&labelColor=07111A" alt="Cosmic World Live"/></a>
+<a href="https://github.com/Suryakanta-Creator/cosmic_world"><img src="https://img.shields.io/badge/SOURCE_CODE-%E2%86%92-8B5CF6?style=for-the-badge&labelColor=07111A" alt="Cosmic World Source"/></a>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+### 🎓 AI Study Assistant
+
+**AI-powered personal learning workspace**
+
+A study platform for organizing learning material, working with notes and PDFs, and using AI-assisted study workflows.
+
+`Next.js` `TypeScript` `Supabase`  
+`AI SDK` `Gemini` `Tailwind CSS`
+
+<p align="center">
+<a href="https://aistudyassistant-sigma.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-%E2%86%92-00E5FF?style=for-the-badge&labelColor=07111A" alt="AI Study Assistant Live"/></a>
+<a href="https://github.com/Suryakanta-Creator/AI-Study-Asistant"><img src="https://img.shields.io/badge/SOURCE_CODE-%E2%86%92-8B5CF6?style=for-the-badge&labelColor=07111A" alt="AI Study Assistant Source"/></a>
+</p>
 
 </td>
 </tr>
