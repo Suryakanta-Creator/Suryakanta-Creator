@@ -1,30 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
 <defs>
-<radialGradient id="r"><stop stop-color="#0b2030"/><stop offset="1" stop-color="#02070d"/></radialGradient>
-<filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg"><stop stop-color="#0b2030"/><stop offset="1" stop-color="#02070d"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
-text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}.o1{animation:r1 18s linear infinite;transform-origin:600px 160px}.o2{animation:r2 24s linear infinite;transform-origin:600px 160px}.p{animation:p 2.4s ease-in-out infinite}.c{animation:c 6s ease-in-out infinite}
-@keyframes r1{to{transform:rotate(360deg)}}@keyframes r2{to{transform:rotate(-360deg)}}@keyframes p{50%{opacity:.35}}@keyframes c{50%{transform:scale(1.03);transform-origin:600px 160px}}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.outer{animation:spin 20s linear infinite;transform-origin:600px 180px}
+.inner{animation:spinBack 14s linear infinite;transform-origin:600px 180px}
+.float{animation:float 2.8s ease-in-out infinite}
+.float2{animation:float2 3.4s ease-in-out infinite}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+.scan{animation:scan 4s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}} @keyframes spinBack{to{transform:rotate(-360deg)}}
+@keyframes float{50%{transform:translateY(-7px)}} @keyframes float2{50%{transform:translateY(6px)}}
+@keyframes pulse{50%{opacity:.45}} @keyframes scan{0%{transform:translateX(-220px)}100%{transform:translateX(1220px)}}
 </style>
-<rect width="1200" height="320" rx="24" fill="url(#r)" stroke="#00e5ff" stroke-opacity=".28"/>
-<circle cx="600" cy="160" r="118" fill="none" stroke="#00e5ff" stroke-opacity=".18" stroke-dasharray="5 8"/>
-<circle cx="600" cy="160" r="85" fill="none" stroke="#8b5cf6" stroke-opacity=".24" stroke-dasharray="3 7"/>
-<g class="c"><circle cx="600" cy="160" r="58" fill="#071724" stroke="#00e5ff" stroke-opacity=".65"/><text x="600" y="154" text-anchor="middle" fill="#e6fbff" font-size="17" font-weight="700">SURYAKANTA</text><text x="600" y="178" text-anchor="middle" fill="#00e5ff" font-size="14">CREATOR // CORE</text></g>
-<g class="o1">
-<g transform="translate(600 42)"><circle r="28" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="12">JAVA</text></g>
-<g transform="translate(718 160)"><circle r="30" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="12">REACT</text></g>
-<g transform="translate(600 278)"><circle r="30" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="12">NEXT</text></g>
-<g transform="translate(482 160)"><circle r="30" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="12">PYTHON</text></g>
+<rect width="1200" height="360" rx="26" fill="url(#bg)" stroke="#00e5ff" stroke-opacity=".30"/>
+<rect x="0" y="0" width="180" height="2" fill="#00e5ff" opacity=".55" class="scan"/>
+<circle cx="600" cy="180" r="142" fill="none" stroke="#00e5ff" stroke-opacity=".17" stroke-dasharray="5 9"/>
+<circle cx="600" cy="180" r="96" fill="none" stroke="#8b5cf6" stroke-opacity=".25" stroke-dasharray="4 7"/>
+<g class="float">
+  <circle cx="600" cy="180" r="62" fill="#071724" stroke="#00e5ff" stroke-opacity=".8" filter="url(#glow)"/>
+  <text x="600" y="174" text-anchor="middle" fill="#e6fbff" font-size="17" font-weight="700">SURYAKANTA</text>
+  <text x="600" y="198" text-anchor="middle" fill="#00e5ff" font-size="13">FULL STACK × AI</text>
 </g>
-<g class="o2">
-<g transform="translate(660 92)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="5" text-anchor="middle" fill="#e9ddff" font-size="10">SQL</text></g>
-<g transform="translate(668 220)"><circle r="27" fill="#0d1020" stroke="#8b5cf6"/><text y="5" text-anchor="middle" fill="#e9ddff" font-size="10">SUPABASE</text></g>
-<g transform="translate(532 220)"><circle r="25" fill="#0d1020" stroke="#8b5cf6"/><text y="5" text-anchor="middle" fill="#e9ddff" font-size="10">SPRING</text></g>
-<g transform="translate(540 92)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="5" text-anchor="middle" fill="#e9ddff" font-size="10">GIT</text></g>
+<g class="outer">
+  <g transform="translate(600 38)"><circle r="29" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">JAVA</text></g>
+  <g transform="translate(723 109)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">REACT</text></g>
+  <g transform="translate(723 251)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">NEXT.JS</text></g>
+  <g transform="translate(600 322)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">PYTHON</text></g>
+  <g transform="translate(477 251)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">SPRING</text></g>
+  <g transform="translate(477 109)"><circle r="31" fill="#071724" stroke="#00e5ff"/><text y="5" text-anchor="middle" fill="#c9f9ff" font-size="11">FASTAPI</text></g>
 </g>
-<text x="40" y="54" fill="#63f2ff" font-size="15" class="p">TECH_ORBIT // ACTIVE</text>
-<text x="40" y="82" fill="#8198a8" font-size="13">systems rotating around one goal:</text>
-<text x="40" y="108" fill="#d8e7f0" font-size="15">BUILD THINGS THAT MATTER.</text>
-<text x="900" y="252" fill="#8198a8" font-size="13">FULL STACK</text><text x="900" y="276" fill="#63f2ff" font-size="16">× AI × SOFTWARE</text>
+<g class="inner">
+  <g transform="translate(600 84)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="9">TYPESCRIPT</text></g>
+  <g transform="translate(683 132)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="10">VITE</text></g>
+  <g transform="translate(683 228)"><circle r="25" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="9">SUPABASE</text></g>
+  <g transform="translate(600 276)"><circle r="25" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="9">POSTGRES</text></g>
+  <g transform="translate(517 228)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="10">MYSQL</text></g>
+  <g transform="translate(517 132)"><circle r="24" fill="#0d1020" stroke="#8b5cf6"/><text y="4" text-anchor="middle" fill="#e9ddff" font-size="10">GIT</text></g>
+</g>
+<text x="38" y="55" fill="#63f2ff" font-size="15" class="pulse">TECH_ORBIT // LIVE</text>
+<text x="38" y="84" fill="#8198a8" font-size="13">moving stack • real tools • real builds</text>
+<text x="38" y="112" fill="#d8e7f0" font-size="15">BUILD → TEST → LEARN → SHIP</text>
+<g class="float2"><text x="918" y="286" fill="#8198a8" font-size="12">SYSTEM</text><text x="918" y="311" fill="#63f2ff" font-size="15">FULL STACK × AI</text><text x="918" y="333" fill="#b69cff" font-size="12">STATUS // ACTIVE</text></g>
 </svg>
