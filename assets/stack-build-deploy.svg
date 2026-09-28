@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="185" viewBox="0 0 1000 185">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#02070D"/><stop offset=".5" stop-color="#07111A"/><stop offset="1" stop-color="#0D1020"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.node{transform-box:fill-box;transform-origin:center;animation:float 3.2s ease-in-out infinite,pulse 2.4s ease-in-out infinite}
+.n1,.n4{animation-name:float2,pulse}.n2,.n5{animation-name:float3,pulse}.n3,.n6{animation-name:float4,pulse}
+.scan{animation:scan 4.6s linear infinite}.dash{animation:dash 7s linear infinite}
+@keyframes float{50%{transform:translateY(-9px) rotate(2deg)}}@keyframes float2{50%{transform:translateY(8px) rotate(-2deg)}}
+@keyframes float3{50%{transform:translate(-4px,-7px) rotate(1.5deg)}}@keyframes float4{50%{transform:translate(4px,7px) rotate(-1.5deg)}}
+@keyframes pulse{50%{opacity:.72}}@keyframes scan{0%{transform:translateX(-180px)}100%{transform:translateX(1050px)}}@keyframes dash{to{stroke-dashoffset:-90}}
+</style>
+<rect x="1" y="1" width="998" height="183" rx="22" fill="url(#bg)" stroke="#00E5FF" stroke-opacity=".24"/>
+<path d="M38 54 H962" stroke="#00E5FF" stroke-opacity=".14" stroke-dasharray="5 9" class="dash"/>
+<rect x="0" y="0" width="165" height="2" fill="#00E5FF" opacity=".55" class="scan"/>
+<text x="32" y="30" fill="#63F2FF" font-size="14" font-weight="700">BUILD_DEPLOY_WORKFLOW // ANIMATED</text>
+<g class="node n0" style="animation-delay:-0.00s">
+      <circle cx="70" cy="84" r="34" fill="#071724" stroke="#00E5FF" stroke-width="2" filter="url(#glow)"/>
+      <circle cx="70" cy="84" r="27" fill="#0B1220" stroke="#00E5FF" stroke-opacity=".28"/>
+      <text x="70" y="89" text-anchor="middle" fill="#00E5FF" font-size="13" font-weight="800">GIT</text>
+      <text x="70" y="138" text-anchor="middle" fill="#D8E7F0" font-size="11">Git</text>
+    </g>
+<g class="node n1" style="animation-delay:-0.35s">
+      <circle cx="242" cy="104" r="34" fill="#071724" stroke="#8B5CF6" stroke-width="2" filter="url(#glow)"/>
+      <circle cx="242" cy="104" r="27" fill="#0B1220" stroke="#8B5CF6" stroke-opacity=".28"/>
+      <text x="242" y="109" text-anchor="middle" fill="#8B5CF6" font-size="13" font-weight="800">GH</text>
+      <text x="242" y="158" text-anchor="middle" fill="#D8E7F0" font-size="11">GitHub</text>
+    </g>
+<g class="node n2" style="animation-delay:-0.70s">
+      <circle cx="414" cy="84" r="34" fill="#071724" stroke="#22D3EE" stroke-width="2" filter="url(#glow)"/>
+      <circle cx="414" cy="84" r="27" fill="#0B1220" stroke="#22D3EE" stroke-opacity=".28"/>
+      <text x="414" y="89" text-anchor="middle" fill="#22D3EE" font-size="13" font-weight="800">VSC</text>
+      <text x="414" y="138" text-anchor="middle" fill="#D8E7F0" font-size="11">VS Code</text>
+    </g>
+<g class="node n3" style="animation-delay:-1.05s">
+      <circle cx="586" cy="104" r="34" fill="#071724" stroke="#A78BFA" stroke-width="2" filter="url(#glow)"/>
+      <circle cx="586" cy="104" r="27" fill="#0B1220" stroke="#A78BFA" stroke-opacity=".28"/>
+      <text x="586" y="109" text-anchor="middle" fill="#A78BFA" font-size="13" font-weight="800">VCL</text>
+      <text x="586" y="158" text-anchor="middle" fill="#D8E7F0" font-size="11">Vercel</text>
+    </g>
+<g class="node n4" style="animation-delay:-1.40s">
+      <circle cx="758" cy="84" r="34" fill="#071724" stroke="#67E8F9" stroke-width="2" filter="url(#glow)"/>
+      <circle cx="758" cy="84" r="27" fill="#0B1220" stroke="#67E8F9" stroke-opacity=".28"/>
+      <text x="758" y="89" text-anchor="middle" fill="#67E8F9" font-size="13" font-weight="800">MVN</text>
+      <text x="758" y="138" text-anchor="middle" fill="#D8E7F0" font-size="11">Maven</text>
+    </g>
+<g class="node n5" style="animation-delay:-1.75s">
+      <circle cx="930" cy="104" r="34" fill="#071724" stroke="#C4B5FD" stroke-width="2" filter="url(#glow)"/>
+      <circle cx="930" cy="104" r="27" fill="#0B1220" stroke="#C4B5FD" stroke-opacity=".28"/>
+      <text x="930" y="109" text-anchor="middle" fill="#C4B5FD" font-size="13" font-weight="800">GHA</text>
+      <text x="930" y="158" text-anchor="middle" fill="#D8E7F0" font-size="11">GitHub Actions</text>
+    </g>
+</svg>
