@@ -18,6 +18,10 @@
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
 
 <div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=1800&pause=700&color=FF3CAC&center=true&vCenter=true&width=900&lines=WELCOME+%F0%9F%A4%97" alt="Typing welcome animation"/>
+
+<br/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF3CAC,45:784BA0,100:2B86C5&height=150&section=footer&animation=twinkling" width="100%" alt="Animated neon wave transition"/>
 </div>
 
