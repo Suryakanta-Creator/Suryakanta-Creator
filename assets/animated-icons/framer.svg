@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+<defs>
+  <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+    <feDropShadow dx="0" dy="2" stdDeviation="2.4" flood-color="#0055FF" flood-opacity=".38"/>
+  </filter>
+</defs>
+<style>
+.logo{transform-box:fill-box;transform-origin:center;animation:icon3d 3.2s ease-in-out infinite;filter:url(#shadow)}
+@keyframes icon3d{
+  0%{transform:perspective(130px) rotateY(-22deg) rotateX(8deg) scale(.94)}
+  25%{transform:perspective(130px) rotateY(4deg) rotateX(-3deg) scale(1.02)}
+  50%{transform:perspective(130px) rotateY(22deg) rotateX(-8deg) scale(1.06)}
+  75%{transform:perspective(130px) rotateY(-4deg) rotateX(3deg) scale(1.02)}
+  100%{transform:perspective(130px) rotateY(-22deg) rotateX(8deg) scale(.94)}
+}
+</style>
+<g class="logo">
+  <g transform="translate(8.5 8.5) scale(2)">
+    <path fill="#0055FF" d="M4 0h16v8h-8zM4 8h8l8 8H4zM4 16h8v8z"/>
+  </g>
+</g>
+</svg>
