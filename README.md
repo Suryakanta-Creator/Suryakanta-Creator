@@ -99,7 +99,7 @@ My current direction is full-stack development with AI-powered features, strong 
 </tr>
 </table>
 
-<sub>Animated stack icons — moving with the profile instead of sitting like a boring logo wall.</sub>
+<sub>Animated SVG stack icons + a live orbit of technologies used across my projects.</sub>
 
 </div>
 
@@ -116,9 +116,19 @@ My current direction is full-stack development with AI-powered features, strong 
 <img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&perline=8" alt="React Next.js Vite Tailwind CSS"/>
 <br/><br/>
 <img src="https://img.shields.io/badge/Framer_Motion-07111A?style=for-the-badge&logo=framer&logoColor=00E5FF" alt="Framer Motion"/>
-<img src="https://img.shields.io/badge/Axios-07111A?style=for-the-badge&logo=axios&logoColor=8B5CF6" alt="Axios"/>
-<img src="https://img.shields.io/badge/Recharts-07111A?style=for-the-badge&logo=chartdotjs&logoColor=00E5FF" alt="Recharts"/>
-<img src="https://img.shields.io/badge/Lucide-07111A?style=for-the-badge&logo=lucide&logoColor=8B5CF6" alt="Lucide"/>
+<img src="https://img.shields.io/badge/React_Router-07111A?style=for-the-badge&logo=reactrouter&logoColor=8B5CF6" alt="React Router"/>
+<img src="https://img.shields.io/badge/Axios-07111A?style=for-the-badge&logo=axios&logoColor=00E5FF" alt="Axios"/>
+<img src="https://img.shields.io/badge/Recharts-07111A?style=for-the-badge&logo=chartdotjs&logoColor=8B5CF6" alt="Recharts"/>
+<img src="https://img.shields.io/badge/Lucide-07111A?style=for-the-badge&logo=lucide&logoColor=00E5FF" alt="Lucide"/>
+</div>
+
+### `3D_&_INTERACTION`
+<div align="center">
+<img src="https://skillicons.dev/icons?i=threejs&perline=8" alt="Three.js"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/React_Three_Fiber-07111A?style=for-the-badge&logo=threedotjs&logoColor=00E5FF" alt="React Three Fiber"/>
+<img src="https://img.shields.io/badge/React_Three_Drei-07111A?style=for-the-badge&logo=threedotjs&logoColor=8B5CF6" alt="React Three Drei"/>
+<img src="https://img.shields.io/badge/Leaflet-07111A?style=for-the-badge&logo=leaflet&logoColor=00E5FF" alt="Leaflet"/>
 </div>
 
 ### `BACKEND_&_APIS`
@@ -126,12 +136,17 @@ My current direction is full-stack development with AI-powered features, strong 
 <img src="https://skillicons.dev/icons?i=spring,fastapi,nodejs&perline=8" alt="Spring Boot FastAPI Node.js"/>
 <br/><br/>
 <img src="https://img.shields.io/badge/Spring_Security-07111A?style=for-the-badge&logo=springsecurity&logoColor=00E5FF" alt="Spring Security"/>
-<img src="https://img.shields.io/badge/JWT-07111A?style=for-the-badge&logo=jsonwebtokens&logoColor=8B5CF6" alt="JWT"/>
+<img src="https://img.shields.io/badge/JPA-07111A?style=for-the-badge&logo=hibernate&logoColor=8B5CF6" alt="JPA"/>
+<img src="https://img.shields.io/badge/JWT-07111A?style=for-the-badge&logo=jsonwebtokens&logoColor=00E5FF" alt="JWT"/>
+<img src="https://img.shields.io/badge/Zod-07111A?style=for-the-badge&logo=zod&logoColor=8B5CF6" alt="Zod"/>
 </div>
 
 ### `DATABASE_&_AUTH`
 <div align="center">
 <img src="https://skillicons.dev/icons?i=mysql,postgres,supabase&perline=8" alt="MySQL PostgreSQL Supabase"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/Supabase_Auth-07111A?style=for-the-badge&logo=supabase&logoColor=00E5FF" alt="Supabase Auth"/>
+<img src="https://img.shields.io/badge/Supabase_Storage-07111A?style=for-the-badge&logo=supabase&logoColor=8B5CF6" alt="Supabase Storage"/>
 </div>
 
 ### `AI_&_COMPUTER_VISION`
@@ -139,22 +154,19 @@ My current direction is full-stack development with AI-powered features, strong 
 <img src="https://skillicons.dev/icons?i=opencv&perline=8" alt="OpenCV"/>
 <br/><br/>
 <img src="https://img.shields.io/badge/Google_Gemini-07111A?style=for-the-badge&logo=googlegemini&logoColor=00E5FF" alt="Google Gemini"/>
+<img src="https://img.shields.io/badge/Vercel_AI_SDK-07111A?style=for-the-badge&logo=vercel&logoColor=8B5CF6" alt="Vercel AI SDK"/>
+<img src="https://img.shields.io/badge/Transformers.js-07111A?style=for-the-badge&logo=huggingface&logoColor=00E5FF" alt="Transformers.js"/>
 <img src="https://img.shields.io/badge/Tesseract_OCR-07111A?style=for-the-badge&logo=googlelens&logoColor=8B5CF6" alt="Tesseract OCR"/>
-<img src="https://img.shields.io/badge/AI_Integration-07111A?style=for-the-badge&logo=openai&logoColor=00E5FF" alt="AI Integration"/>
+<img src="https://img.shields.io/badge/PDF_Processing-07111A?style=for-the-badge&logo=adobeacrobatreader&logoColor=00E5FF" alt="PDF Processing"/>
 </div>
 
-### `MAPS_&_VISUALIZATION`
-<div align="center">
-<img src="https://img.shields.io/badge/Leaflet-07111A?style=for-the-badge&logo=leaflet&logoColor=00E5FF" alt="Leaflet"/>
-<img src="https://img.shields.io/badge/Data_Visualization-07111A?style=for-the-badge&logo=chartdotjs&logoColor=8B5CF6" alt="Data Visualization"/>
-</div>
-
-### `DEPLOYMENT_&_TOOLS`
+### `BUILD_DEPLOY_&_WORKFLOW`
 <div align="center">
 <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel&perline=8" alt="Git GitHub Visual Studio Code Vercel"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/GitHub_Actions-07111A?style=for-the-badge&logo=githubactions&logoColor=00E5FF" alt="GitHub Actions"/>
-<img src="https://img.shields.io/badge/Vercel_Deployment-07111A?style=for-the-badge&logo=vercel&logoColor=8B5CF6" alt="Vercel Deployment"/>
+<img src="https://img.shields.io/badge/Maven-07111A?style=for-the-badge&logo=apachemaven&logoColor=00E5FF" alt="Maven"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-07111A?style=for-the-badge&logo=githubactions&logoColor=8B5CF6" alt="GitHub Actions"/>
+<img src="https://img.shields.io/badge/Vercel_Deployment-07111A?style=for-the-badge&logo=vercel&logoColor=00E5FF" alt="Vercel Deployment"/>
 </div>
 
 <img src="./assets/neon-divider.svg" width="100%" alt="Animated neon divider"/>
