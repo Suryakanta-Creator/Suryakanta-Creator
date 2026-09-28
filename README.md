@@ -70,7 +70,7 @@ My current direction is full-stack development with AI-powered features, strong 
 
 <br/>
 
-### `ANIMATED_CORE`
+### `TECH_SKILLS`
 
 <div align="center">
 
