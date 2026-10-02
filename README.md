@@ -5,6 +5,7 @@
 
 <br/><br/>
 
+<a href="https://portfolio-two-topaz-69.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-LIVE_SITE-07111A?style=for-the-badge&logo=vercel&logoColor=00E5FF" alt="Live Portfolio"/></a>
 <a href="https://github.com/Suryakanta-Creator"><img src="https://img.shields.io/badge/GITHUB-Suryakanta--Creator-07111A?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/suryakanta-bala-b820923aa/"><img src="https://img.shields.io/badge/LINKEDIN-Suryakanta%20Bala-07111A?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn"/></a>
 <a href="mailto:myworldsurya912@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONNECT-07111A?style=for-the-badge&logo=gmail&logoColor=00E5FF" alt="Email"/></a>
@@ -38,6 +39,7 @@ const suryakanta = {
   username: "Suryakanta-Creator",
   education: "B.Tech Student",
   focus: ["Full Stack", "AI", "Software Engineering"],
+  portfolio: "https://portfolio-two-topaz-69.vercel.app",
   philosophy: "Learn. Build. Grow. Repeat."
 };
 ```
@@ -54,7 +56,7 @@ My current direction is full-stack development with AI-powered features, strong 
 `● ONLINE` — Building & learning  
 `● ACTIVE` — Full-stack development  
 `● EXPLORING` — AI-powered products  
-`● QUEUED` — Personal portfolio  
+`● LIVE` — Personal portfolio  
 
 <br/>
 
@@ -398,6 +400,7 @@ My current direction is full-stack development with AI-powered features, strong 
 
 <div align="center">
 
+<a href="https://portfolio-two-topaz-69.vercel.app"><img src="https://img.shields.io/badge/Portfolio-Live_Site-07111A?style=for-the-badge&logo=vercel&logoColor=00E5FF" alt="Live Portfolio"/></a>
 <a href="https://github.com/Suryakanta-Creator"><img src="https://img.shields.io/badge/GitHub-Suryakanta--Creator-07111A?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/suryakanta-bala-b820923aa/"><img src="https://img.shields.io/badge/LinkedIn-Suryakanta%20Bala-07111A?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn"/></a>
 <a href="mailto:myworldsurya912@gmail.com"><img src="https://img.shields.io/badge/Gmail-myworldsurya912%40gmail.com-07111A?style=for-the-badge&logo=gmail&logoColor=00E5FF" alt="Email"/></a>
@@ -424,4 +427,3 @@ My current direction is full-stack development with AI-powered features, strong 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,45:07111A,100:8B5CF6&height=150&section=footer&animation=twinkling" width="100%" alt="Animated cyber wave footer"/>
 
 </div>
-
